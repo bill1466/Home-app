@@ -1,0 +1,16 @@
+{
+  "name": "home-hub-backend",
+  "version": "1.0.0",
+  "description": "Self-hosted API for the Eastwood Home Hub mobile app",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

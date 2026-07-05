@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Backend runtime data
+backend/data/
+
+# Expo / React Native
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
