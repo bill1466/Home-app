@@ -13,7 +13,6 @@ function seedIfEmpty() {
     ['Riley', '✨', '#9575cd', 1, 2],
     ['Jordan', '🌟', '#4db6ac', 1, 3],
     ['Sam', '🧹', '#ffb74d', 1, 4],
-    ['Quinn', '🍼', '#81c784', 0, 5],
   ];
   for (const u of users) insertUser.run(...u);
 
