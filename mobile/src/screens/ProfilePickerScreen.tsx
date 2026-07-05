@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     paddingVertical: spacing.xl,
     marginBottom: spacing.md,
   },
-  profileEmoji: { fontSize: 36, marginBottom: spacing.sm },
+  profileEmoji: { fontSize: 56, marginBottom: spacing.sm },
   profileName: { fontSize: 16, fontWeight: '600', color: colors.text },
   errorBox: { padding: spacing.lg, alignItems: 'center' },
   errorText: { color: colors.danger, textAlign: 'center', marginBottom: spacing.md },
